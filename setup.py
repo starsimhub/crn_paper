@@ -28,7 +28,8 @@ setup(
     url              = 'http://idmod.org',
     keywords         = ["Agent-based model", "Common random numbers", "Variance reduction", "Starsim"],
     install_requires = [
-        "starsim",
+        "starsim @ git+https://github.com/starsimhub/starsim@f410b65fab66121d507730227c76842dd76da6a2",
+        "seaborn",
     ],
 
     version=version,
