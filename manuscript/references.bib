@@ -1,0 +1,668 @@
+g@article{wright_effectiveness_1979,
+	title = {On the {Effectiveness} of {Common} {Random} {Numbers}},
+	volume = {25},
+	issn = {0025-1909},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.25.7.649},
+	doi = {10.1287/mnsc.25.7.649},
+	abstract = {The common random number (CRN) simulation technique is a variance reduction method in which policy alternatives are tested against the same random input streams. The CRN literature suggests that positively correlated input streams will generate positively correlated policy responses and, therefore, that the variance of CRN estimators of response differences will be smaller than the variance of independent sample estimators. This paper reports simulation experiments with a typical inventory model for which the CRN technique induces negative correlation and thus augments variance. The experiments also show that CRN designs which assign separate random streams to each stochastic input and hold all streams common across policy tests usually, but not necessarily, yield maximum variance reduction.},
+	number = {7},
+	urldate = {2023-10-31},
+	journal = {Management Science},
+	author = {Wright, R. D. and Ramsay, T. E.},
+	month = jul,
+	year = {1979},
+	note = {Publisher: INFORMS},
+	keywords = {random numbers, simulation},
+	pages = {649--656},
+}
+
+@article{kleinman_simulation-based_1999,
+	title = {Simulation-{Based} {Optimization} with {Stochastic} {Approximation} {Using} {Common} {Random} {Numbers}},
+	volume = {45},
+	issn = {0025-1909},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.45.11.1570},
+	doi = {10.1287/mnsc.45.11.1570},
+	abstract = {The method of Common Random Numbers is a technique used to reduce the variance of difference estimates in simulation optimization problems. These differences are commonly used to estimate gradients of objective functions as part of the process of determining optimal values for parameters of a simulated system. Asymptotic results exist which show that using the Common Random Numbers method in the iterative Finite Difference Stochastic Approximation optimization algorithm (FDSA) can increase the optimal rate of convergence of the algorithm from the typical rate of k−1/3 to the faster k−1/2, where k is the algorithm's iteration number. Simultaneous Perturbation Stochastic Approximation (SPSA) is a newer and often much more efficient optimization algorithm, and we will show that this algorithm, too, converges faster when the Common Random Numbers method is used. We will also provide multivariate asymptotic covariance matrices for both the SPSA and FDSA errors.},
+	number = {11},
+	urldate = {2023-10-31},
+	journal = {Management Science},
+	author = {Kleinman, Nathan L. and Spall, James C. and Naiman, Daniel Q.},
+	month = nov,
+	year = {1999},
+	note = {Publisher: INFORMS},
+	keywords = {Common Random Numbers, discrete event dynamic systems, Finite Difference Stochastic Approximation (FDSA), Simultaneous Perturbation Stochastic Approximation (SPSA)},
+	pages = {1570--1578},
+}
+
+@article{glasserman_guidelines_1992,
+	title = {Some {Guidelines} and {Guarantees} for {Common} {Random} {Numbers}},
+	volume = {38},
+	issn = {0025-1909},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.38.6.884},
+	doi = {10.1287/mnsc.38.6.884},
+	abstract = {Common random numbers (CRN) is a widely-used technique for reducing variance in comparing stochastic systems through simulation. Its popularity derives from its intuitive appeal and ease of implementation. However, though CRN has been observed to work well with a broad range of models, the class of systems for which it is provably advantageous has remained rather limited.
+
+This paper has two purposes: We first discuss the effectiveness and optimality of CRN in a general setting, stressing the roles played by monotonicity and continuity properties. We then present specific, new classes of systems and comparisons for which CRN is beneficial and even optimal. Our conclusions for these systems are largely consistent with simulation practice and lend further theoretical support to folklore. Our results differ from those of previous analyses primarily because we put conditions on the timing of events, rather than the sequence of states, in a discrete-event simulation.
+
+We formulate our results in three settings corresponding to three applications of CRN: distributional comparisons, structural comparisons, and sensitivity analysis. In each case, we make use of conditions that simultaneously ensure monotonicity and continuity in the timing of events. These properties are established through explicit recursions for event epochs in terms of increasing, continuous functions.},
+	number = {6},
+	urldate = {2023-10-31},
+	journal = {Management Science},
+	author = {Glasserman, Paul and Yao, David D.},
+	month = jun,
+	year = {1992},
+	note = {Publisher: INFORMS},
+	keywords = {common random numbers, simulation, stochastic ordering, variance reduction techniques},
+	pages = {884--908},
+}
+
+@article{chick_new_2001,
+	title = {New {Procedures} to {Select} the {Best} {Simulated} {System} {Using} {Common} {Random} {Numbers}},
+	volume = {47},
+	issn = {0025-1909},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.47.8.1133.10229},
+	doi = {10.1287/mnsc.47.8.1133.10229},
+	abstract = {Although simulation is widely used to select the best of several alternative system designs, and common random numbers is an important tool for reducing the computation effort of simulation experiments, there are surprisingly few tools available to help a simulation practitioner select the best system when common random numbers are employed. This paper presents new two-stage procedures that use common random numbers to help identify the best simulated system. The procedures allow for screening and attempt to allocate additional replications to improve the value of information obtained during the second stage, rather than determining the number of replications required to provide a given probability of correct selection guarantee. The procedures allow decision makers to reduce either the expected opportunity cost associated with potentially selecting an inferior system, or the probability of incorrect selection. A small empirical study indicates that the new procedures outperform several procedures with respect to several criteria, and identifies potential areas for further improvement.},
+	number = {8},
+	urldate = {2023-10-31},
+	journal = {Management Science},
+	author = {Chick, Stephen E. and Inoue, Koichiro},
+	month = aug,
+	year = {2001},
+	note = {Publisher: INFORMS},
+	keywords = {Bayesian Statistics, Common Random Numbers, Discrete-Event Simulation, Missing Data, Multiple Selection, Ranking and Selection},
+	pages = {1133--1149},
+}
+
+@article{nelson_using_1995,
+	title = {Using {Common} {Random} {Numbers} for {Indifference}-{Zone} {Selection} and {Multiple} {Comparisons} in {Simulation}},
+	volume = {41},
+	issn = {0025-1909},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.41.12.1935},
+	doi = {10.1287/mnsc.41.12.1935},
+	abstract = {We present a general recipe for constructing experiment design and analysis procedures that simultaneously provide indifference-zone selection and multiple-comparison inference for choosing the best among k simulated systems. We then exhibit two such procedures that exploit the variance-reduction technique of common random numbers to reduce the sample size required to attain a fixed precision. One procedure is based on the Bonferroni inequality and is guaranteed to be statistically conservative. The other procedure is exact under a specific dependence structure, but may be slightly liberal otherwise. Both are easy to apply, requiring only simple calculations and tabled constants. We illustrate the procedures with a numerical example.},
+	number = {12},
+	urldate = {2023-10-31},
+	journal = {Management Science},
+	author = {Nelson, Barry L. and Matejcik, Frank J.},
+	month = dec,
+	year = {1995},
+	note = {Publisher: INFORMS},
+	keywords = {common random numbers, multiple comparisons, output analysis, simulation, variance reduction},
+	pages = {1935--1945},
+}
+
+@article{chen_effects_2012,
+	title = {The effects of common random numbers on stochastic kriging metamodels},
+	volume = {22},
+	issn = {1049-3301},
+	url = {https://doi.org/10.1145/2133390.2133391},
+	doi = {10.1145/2133390.2133391},
+	abstract = {Ankenman et al. introduced stochastic kriging as a metamodeling tool for representing stochastic simulation response surfaces, and employed a very simple example to suggest that the use of Common Random Numbers (CRN) degrades the capability of stochastic kriging to predict the true response surface. In this article we undertake an in-depth analysis of the interaction between CRN and stochastic kriging by analyzing a richer collection of models; in particular, we consider stochastic kriging models with a linear trend term. We also perform an empirical study of the effect of CRN on stochastic kriging. We also consider the effect of CRN on metamodel parameter estimation and response-surface gradient estimation, as well as response-surface prediction. In brief, we confirm that CRN is detrimental to prediction, but show that it leads to better estimation of slope parameters and superior gradient estimation compared to independent simulation.},
+	number = {2},
+	urldate = {2023-10-31},
+	journal = {ACM Transactions on Modeling and Computer Simulation},
+	author = {Chen, Xi and Ankenman, Bruce E. and Nelson, Barry L.},
+	month = mar,
+	year = {2012},
+	keywords = {common random numbers, metamodeling, Simulation output analysis, simulation theory, variance reduction},
+	pages = {7:1--7:20},
+}
+
+@article{kleijnen_analyzing_1988,
+	title = {Analyzing {Simulation} {Experiments} with {Common} {Random} {Numbers}},
+	volume = {34},
+	issn = {0025-1909},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.34.1.65},
+	doi = {10.1287/mnsc.34.1.65},
+	abstract = {To analyze simulation runs which use the same random numbers, the blocking concept of experimental design is not needed. Instead, this paper applies a linear regression model with a nondiagonal covariance matrix. This covariance matrix does not need to have a specific pattern such as constant covariances. A simple example yields surprising results. The paper proposes a new framework for the error analysis. This framework consists of three factors (namely, common random numbers, replication, model validity), each with three levels.},
+	number = {1},
+	urldate = {2023-10-31},
+	journal = {Management Science},
+	author = {Kleijnen, Jack P. C.},
+	month = jan,
+	year = {1988},
+	note = {Publisher: INFORMS},
+	keywords = {blocking, error analysis, estimated generalized least squares, general linear model, variance reduction},
+	pages = {65--74},
+}
+
+@article{kleijnen_antithetic_1975,
+	title = {Antithetic {Variates}, {Common} {Random} {Numbers} and {Optimal} {Computer} {Time} {Allocation} in {Simulation}},
+	volume = {21},
+	issn = {0025-1909},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.21.10.1176},
+	doi = {10.1287/mnsc.21.10.1176},
+	abstract = {Two simple variance reduction techniques are discussed, viz. antithetic variates and common random numbers. Their joint application creates undesirable negative correlations between the responses of two simulated systems. Therefore three alternatives are considered: antithetics only, common random numbers only, antithetic and common random numbers combined. No alternative is always best as is shown by analytical results for extremely simple systems and simulation results for simple queuing systems. Therefore a procedure is derived that starts with some pilot runs for both systems and estimates which alternative minimizes the variance; at the same time this procedure allocates the limited amount of computer time to the two systems in an optimal way. Results of the application of the procedure to several queuing systems are presented. Because of certain disadvantages of the procedure we may decide to select alternative 1 (antithetics only) a priori. Then the procedure can still be used for the optimal computer time allocation.},
+	number = {10},
+	urldate = {2023-10-31},
+	journal = {Management Science},
+	author = {Kleijnen, Jack P. C.},
+	month = jun,
+	year = {1975},
+	note = {Publisher: INFORMS},
+	pages = {1176--1185},
+}
+
+@article{kleijnen_regression_1992,
+	title = {Regression {Metamodels} for {Simulation} with {Common} {Random} {Numbers}: {Comparison} of {Validation} {Tests} and {Confidence} {Intervals}},
+	volume = {38},
+	issn = {0025-1909},
+	shorttitle = {Regression {Metamodels} for {Simulation} with {Common} {Random} {Numbers}},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.38.8.1164},
+	doi = {10.1287/mnsc.38.8.1164},
+	abstract = {Linear regression analysis is important in many fields. In the analysis of simulation results, a regression (meta)model can be applied, even when common pseudorandom numbers are used. To test the validity of the specified regression model, Rao (1959) generalized the F statistic for lack of fit, whereas Kleijnen (1983) proposed a cross-validation procedure using a Student's t statistic combined with Bonferroni's inequality. This paper reports on an extensive Monte Carlo experiment designed to compare these two methods. Under the normality assumption, cross-validation is conservative, whereas Rao's test realizes its nominal type I error and has high power. Robustness is investigated through lognormal and uniform distributions. When simulation responses are distributed lognormally, then cross-validation using Ordinary Least Squares is the only technique that has acceptable type I error. Uniform distributions give results similar to the normal case. Once the regression model is validated, confidence intervals for the individual regression parameters are computed. The Monte Carlo experiment compares several confidence interval procedures. Under normality, Rao's procedure is preferred since it has good coverage probability and acceptable half-length. Under lognormality, Ordinary Least Squares achieves nominal coverage probability. Uniform distributions again give results similar to the normal case.},
+	number = {8},
+	urldate = {2023-10-31},
+	journal = {Management Science},
+	author = {Kleijnen, Jack P. C.},
+	month = aug,
+	year = {1992},
+	note = {Publisher: INFORMS},
+	keywords = {common seeds, experimental design, hotelling's statistic, metamodeling, specification error},
+	pages = {1164--1185},
+}
+
+@article{murphy_using_2013,
+	title = {Using {Common} {Random} {Numbers} in {Health} {Care} {Cost}-{Effectiveness} {Simulation} {Modeling}},
+	volume = {48},
+	copyright = {© Health Research and Educational Trust},
+	issn = {1475-6773},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-6773.12044},
+	doi = {10.1111/1475-6773.12044},
+	abstract = {Objectives To identify the problem of separating statistical noise from treatment effects in health outcomes modeling and analysis. To demonstrate the implementation of one technique, common random numbers (CRNs), and to illustrate the value of CRNs to assess costs and outcomes under uncertainty. Methods A microsimulation model was designed to evaluate osteoporosis treatment, estimating cost and utility measures for patient cohorts at high risk of osteoporosis-related fractures. Incremental cost-effectiveness ratios (ICERs) were estimated using a full implementation of CRNs, a partial implementation of CRNs, and no CRNs. A modification to traditional probabilistic sensitivity analysis (PSA) was used to determine how variance reduction can impact a decision maker's view of treatment efficacy and costs. Results The full use of CRNs provided a 93.6 percent reduction in variance compared to simulations not using the technique. The use of partial CRNs provided a 5.6 percent reduction. The PSA results using full CRNs demonstrated a substantially tighter range of cost-benefit outcomes for teriparatide usage than the cost-benefits generated without the technique. Conclusions CRNs provide substantial variance reduction for cost-effectiveness studies. By reducing variability not associated with the treatment being evaluated, CRNs provide a better understanding of treatment effects and risks.},
+	language = {en},
+	number = {4},
+	urldate = {2023-10-31},
+	journal = {Health Services Research},
+	author = {Murphy, Daniel R. and Klein, Robert W. and Smolen, Lee J. and Klein, Timothy M. and Roberts, Stephen D.},
+	year = {2013},
+	keywords = {common random numbers, cost-effectiveness modeling, osteoporosis, Variance reduction},
+	pages = {1508--1525},
+	file = {Full Text:/Users/dklein/Zotero/storage/FIZHCWWG/Murphy et al. - 2013 - Using Common Random Numbers in Health Care Cost-Ef.pdf:application/pdf;Snapshot:/Users/dklein/Zotero/storage/V82R4X7R/1475-6773.html:text/html},
+}
+%note = {\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1475-6773.12044},
+
+@article{ward_estimation_2019,
+	title = {Estimation of {Eating} {Disorders} {Prevalence} by {Age} and {Associations} {With} {Mortality} in a {Simulated} {Nationally} {Representative} {US} {Cohort}},
+	volume = {2},
+	issn = {2574-3805},
+	url = {https://doi.org/10.1001/jamanetworkopen.2019.12925},
+	doi = {10.1001/jamanetworkopen.2019.12925},
+	abstract = {Eating disorders (EDs) are common psychiatric disorders associated with high mortality. However, data on ED disease dynamics and treatment coverage are sparse.To model the individual-level disease dynamics of ED from birth to age 40 years and to estimate the association of increased treatment coverage with ED-related mortality.In this decision analytical model study, an individual-level Markov state transition model was empirically calibrated in April 2019 using a Bayesian approach to synthesize available clinical and epidemiologic ED data. The simulation model was calibrated to nationally representative US survey data from 2007 and 2011. A virtual cohort of 100 000 individuals (50 000 [50\%] male) was modeled from birth to age 40 years for 4 ED diagnoses: anorexia nervosa, bulimia nervosa, binge eating disorder, and other specified feeding and eating disorders.Age-specific ED incidence and mortality rates and background (all-cause) mortality.The main outcomes were age-specific 12-month and lifetime ED prevalence and number of deaths per 100 000 general population individuals by age 40 years. The mean and 95\% uncertainty intervals (UIs) of 1000 simulations, accounting for stochastic and parameter uncertainty, are reported.The highest estimated mean annual prevalence of ED occurred at approximately age 21 years for both male individuals (7.4\%; 95\% UI, 3.5\%-11.5\%) and female individuals (10.3\%; 95\% UI, 7.0\%-14.2\%), with lifetime mean prevalence estimates increasing to 14.3\% (95\% UI, 9.7\%-19.0\%) for male individuals and 19.7\% (95\% UI, 15.8\%-23.9\%) for female individuals by age 40 years. Ninety-five percent of first-time cases occurred by age 25 years. Current treatment coverage averts an estimated mean of 41.7 deaths per 100 000 people (95\% UI, 13.0-82.0 deaths per 100 000 people) by age 40 years, whereas increasing treatment coverage for all patients with ED could avert an estimated mean of 70.5 deaths per 100 000 people by age 40 years (95\% UI, 26.0-143.0 deaths per 100 000 people).In this simulation modeling study, the estimated lifetime prevalence of ED was high, with approximately 1 in 7 male and 1 in 5 female individuals having an ED by age 40 years. The initial onset of EDs was highly concentrated during adolescence and young adulthood, suggesting that this is a critical period for prevention efforts. However, the high estimated prevalence of recurring ED later in life highlights the importance of identification and treatment of ED at older ages as well. These findings suggest that increasing treatment coverage could substantially reduce ED-related mortality.},
+	number = {10},
+	urldate = {2023-10-31},
+	journal = {JAMA Network Open},
+	author = {Ward, Zachary J. and Rodriguez, Patricia and Wright, Davene R. and Austin, S. Bryn and Long, Michael W.},
+	month = oct,
+	year = {2019},
+	pages = {e1912925},
+	file = {Full Text:/Users/dklein/Zotero/storage/F3P7WEJF/Ward et al. - 2019 - Estimation of Eating Disorders Prevalence by Age a.pdf:application/pdf;Snapshot:/Users/dklein/Zotero/storage/WCQ5DH7U/2752577.html:text/html},
+}
+
+@article{vreman_health_2017,
+	title = {Health and economic benefits of reducing sugar intake in the {USA}, including effects via non-alcoholic fatty liver disease: a microsimulation model},
+	volume = {7},
+	copyright = {© Article author(s) (or their employer(s) unless otherwise stated in the text of the article) 2017. All rights reserved. No commercial use is permitted unless otherwise expressly granted.. This is an Open Access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited and the use is non-commercial. See: http://creativecommons.org/licenses/by-nc/4.0/},
+	issn = {2044-6055, 2044-6055},
+	shorttitle = {Health and economic benefits of reducing sugar intake in the {USA}, including effects via non-alcoholic fatty liver disease},
+	url = {https://bmjopen.bmj.com/content/7/8/e013543},
+	doi = {10.1136/bmjopen-2016-013543},
+	abstract = {Objectives Excessive consumption of added sugars in the human diet has been associated with obesity, type 2 diabetes (T2D), coronary heart disease (CHD) and other elements of the metabolic syndrome. Recent studies have shown that non-alcoholic fatty liver disease (NAFLD) is a critical pathway to metabolic syndrome. This model assesses the health and economic benefits of interventions aimed at reducing intake of added sugars.
+Methods Using data from US National Health Surveys and current literature, we simulated an open cohort, for the period 2015–2035. We constructed a microsimulation model with Markov chains for NAFLD (including steatosis, non-alcoholic steatohepatitis (NASH), cirrhosis and hepatocellular carcinoma (HCC)), body mass index, T2D and CHD. We assessed reductions in population disease prevalence, disease-attributable disability-adjusted life years (DALYs) and costs, with interventions that reduce added sugars consumption by either 20\% or 50\%.
+Findings The model estimated that a 20\% reduction in added sugars intake will reduce prevalence of hepatic steatosis, NASH, cirrhosis, HCC, obesity, T2D and CHD. Incidence of T2D and CHD would be expected to decrease by 19.9 (95\% CI 12.8 to 27.0) and 9.4 (95\% CI 3.1 to 15.8) cases per 100 000 people after 20 years, respectively. A 20\% reduction in consumption is also projected to annually avert 0.767 million (M) DALYs (95\% CI 0.757M to 0.777M) and a total of US\$10.3 billion (B) (95\% CI 10.2B to 10.4B) in discounted direct medical costs by 2035. These effects increased proportionally when added sugars intake were reduced by 50\%.
+Conclusions The decrease in incidence and prevalence of disease is similar to results in other models, but averted costs and DALYs were higher, mainly due to inclusion of NAFLD and CHD. The model suggests that efforts to reduce consumption of added sugars may result in significant public health and economic benefits.},
+	language = {en},
+	number = {8},
+	urldate = {2023-10-31},
+	journal = {BMJ Open},
+	author = {Vreman, Rick A. and Goodell, Alex J. and Rodriguez, Luis A. and Porco, Travis C. and Lustig, Robert H. and Kahn, James G.},
+	month = aug,
+	year = {2017},
+	pmid = {28775179},
+	note = {Publisher: British Medical Journal Publishing Group
+Section: Public health},
+	keywords = {added sugar, fructose, microsimulation, non-alcoholic fatty liver disease, obesity, type 2 diabetes},
+	pages = {e013543},
+	file = {Full Text PDF:/Users/dklein/Zotero/storage/YBUCYTIG/Vreman et al. - 2017 - Health and economic benefits of reducing sugar int.pdf:application/pdf},
+}
+
+@article{troost_how_2023,
+	title = {How to keep it adequate: {A} protocol for ensuring validity in agent-based simulation},
+	volume = {159},
+	issn = {1364-8152},
+	shorttitle = {How to keep it adequate},
+	url = {https://www.sciencedirect.com/science/article/pii/S1364815222002596},
+	doi = {10.1016/j.envsoft.2022.105559},
+	abstract = {There has so far been no shared understanding of validity in agent-based simulation. We here conceptualise validation as systematically substantiating the premises on which conclusions from simulation analysis for a particular modelling context are built. Given such a systematic perspective, validity of agent-based models cannot be ensured if validation is merely understood as an isolated step in the modelling process. Rather, valid conclusions from simulation analysis require context-adequate method choices at all steps of the simulation analysis including model construction, model and parameter inference, uncertainty analysis and simulation. We present a twelve-step protocol to highlight the (often hidden) premises for methodological choices and their link to the modelling context. It is designed to aid modelers in understanding their context and in choosing and documenting context-adequate and mutually consistent methods throughout the modelling process. Its purpose is to assist reviewers and the community as a whole in assessing and discussing context-adequacy.},
+	urldate = {2023-10-31},
+	journal = {Environmental Modelling \& Software},
+	author = {Troost, Christian and Huber, Robert and Bell, Andrew R. and van Delden, Hedwig and Filatova, Tatiana and Le, Quang Bao and Lippe, Melvin and Niamir, Leila and Polhill, J. Gareth and Sun, Zhanli and Berger, Thomas},
+	month = jan,
+	year = {2023},
+	keywords = {Calibration, Generalisation, Model inference, Model validation, Regime shift},
+	pages = {105559},
+	file = {Full Text:/Users/dklein/Zotero/storage/MJAXFJG3/Troost et al. - 2023 - How to keep it adequate A protocol for ensuring v.pdf:application/pdf;ScienceDirect Snapshot:/Users/dklein/Zotero/storage/QQB86QH5/S1364815222002596.html:text/html},
+}
+
+@article{troost_advances_2016,
+	title = {Advances in probabilistic and parallel agent-based simulation: {Modelling} climate change adaptation in agriculture},
+	shorttitle = {Advances in probabilistic and parallel agent-based simulation},
+	url = {https://scholarsarchive.byu.edu/iemssconference/2016/Stream-B/12},
+	journal = {International Congress on Environmental Modelling and Software},
+	author = {Troost, Christian and Berger, Thomas},
+	month = jul,
+	year = {2016},
+	file = {BYU ScholarsArchive - International Congress on Environmental Modelling and Software\: Advances in probabilistic and parallel agent-based simulation\: Modelling climate change adaptation in agriculture:/Users/dklein/Zotero/storage/6QSYWBHR/12.html:text/html;Troost and Berger - Advances in probabilistic and parallel agent-based.pdf:/Users/dklein/Zotero/storage/ZRJML8WD/Troost and Berger - Advances in probabilistic and parallel agent-based.pdf:application/pdf},
+}
+
+@article{barker_evaluation_2020,
+	title = {Evaluation of the {Cost}-effectiveness of {Infection} {Control} {Strategies} to {Reduce} {Hospital}-{Onset} {Clostridioides} difficile {Infection}},
+	volume = {3},
+	issn = {2574-3805},
+	url = {https://doi.org/10.1001/jamanetworkopen.2020.12522},
+	doi = {10.1001/jamanetworkopen.2020.12522},
+	abstract = {Clostridioides difficile infection is the most common hospital-acquired infection in the United States, yet few studies have evaluated the cost-effectiveness of infection control initiatives targeting C difficile.To compare the cost-effectiveness of 9 C difficile single intervention strategies and 8 multi-intervention bundles.This economic evaluation was conducted in a simulated 200-bed tertiary, acute care, adult hospital. The study relied on clinical outcomes from a published agent-based simulation model of C difficile transmission. The model included 4 agent types (ie, patients, nurses, physicians, and visitors). Cost and utility estimates were derived from the literature.Daily sporicidal cleaning, terminal sporicidal cleaning, health care worker hand hygiene, patient hand hygiene, visitor hand hygiene, health care worker contact precautions, visitor contact precautions, C difficile screening at admission, and reduced intrahospital patient transfers.Cost-effectiveness was evaluated from the hospital perspective and defined by 2 measures: cost per hospital-onset C difficile infection averted and cost per quality-adjusted life-year (QALY).In this agent-based model of a simulated 200-bed tertiary, acute care, adult hospital, 5 of 9 single intervention strategies were dominant, reducing cost, increasing QALYs, and averting hospital-onset C difficile infection compared with baseline standard hospital practices. They were daily cleaning (most cost-effective, saving \$358 268 and 36.8 QALYs annually), health care worker hand hygiene, patient hand hygiene, terminal cleaning, and reducing intrahospital patient transfers. Screening at admission cost \$1283/QALY, while health care worker contact precautions and visitor hand hygiene interventions cost \$123 264/QALY and \$5 730 987/QALY, respectively. Visitor contact precautions was dominated, with increased cost and decreased QALYs. Adding screening, health care worker hand hygiene, and patient hand hygiene sequentially to the daily cleaning intervention formed 2-pronged, 3-pronged, and 4-pronged multi-intervention bundles that cost an additional \$29 616/QALY, \$50 196/QALY, and \$146 792/QALY, respectively.The findings of this study suggest that institutions should seek to streamline their infection control initiatives and prioritize a smaller number of highly cost-effective interventions. Daily sporicidal cleaning was among several cost-saving strategies that could be prioritized over minimally effective, costly strategies, such as visitor contact precautions.},
+	number = {8},
+	urldate = {2023-10-31},
+	journal = {JAMA Network Open},
+	author = {Barker, Anna K. and Scaria, Elizabeth and Safdar, Nasia and Alagoz, Oguzhan},
+	month = aug,
+	year = {2020},
+	pages = {e2012522},
+	file = {Full Text:/Users/dklein/Zotero/storage/K2S3DI9G/Barker et al. - 2020 - Evaluation of the Cost-effectiveness of Infection .pdf:application/pdf;Snapshot:/Users/dklein/Zotero/storage/U27DTK84/2769238.html:text/html},
+}
+
+@article{barker_interventions_2018,
+	title = {Interventions to {Reduce} the {Incidence} of {Hospital}-{Onset} {Clostridium} difficile {Infection}: {An} {Agent}-{Based} {Modeling} {Approach} to {Evaluate} {Clinical} {Effectiveness} in {Adult} {Acute} {Care} {Hospitals}},
+	volume = {66},
+	issn = {1058-4838},
+	shorttitle = {Interventions to {Reduce} the {Incidence} of {Hospital}-{Onset} {Clostridium} difficile {Infection}},
+	url = {https://doi.org/10.1093/cid/cix962},
+	doi = {10.1093/cid/cix962},
+	abstract = {Despite intensified efforts to reduce hospital-onset Clostridium difficile infection (HO-CDI), its clinical and economic impacts continue to worsen. Many institutions have adopted bundled interventions that vary considerably in composition, strength of evidence, and effectiveness. Considerable gaps remain in our knowledge of intervention effectiveness and disease transmission, which hinders HO-CDI prevention.We developed an agent-based model of C. difficile transmission in a 200-bed adult hospital using studies from the literature, supplemented with primary data collection. The model includes an environmental component and 4 distinct agent types: patients, visitors, nurses, and physicians. We used the model to evaluate the comparative clinical effectiveness of 9 single interventions and 8 multiple-intervention bundles at reducing HO-CDI and asymptomatic C. difficile colonization.Daily cleaning with sporicidal disinfectant and C. difficile screening at admission were the most effective single-intervention strategies, reducing HO-CDI by 68.9\% and 35.7\%, respectively (both P \&lt; .001). Combining these interventions into a 2-intervention bundle reduced HO-CDI by 82.3\% and asymptomatic hospital-onset colonization by 90.6\% (both, P \&lt; .001). Adding patient hand hygiene to healthcare worker hand hygiene reduced HO-CDI rates an additional 7.9\%. Visitor hand hygiene and contact precaution interventions did not reduce HO-CDI, compared with baseline. Excluding those strategies, healthcare worker contact precautions were the least effective intervention at reducing hospital-onset colonization and infection.Identifying and managing the vast hospital reservoir of asymptomatic C. difficile by screening and daily cleaning with sporicidal disinfectant are high-yield strategies. These findings provide much-needed data regarding which interventions to prioritize for optimal C. difficile control.},
+	number = {8},
+	urldate = {2023-10-31},
+	journal = {Clinical Infectious Diseases},
+	author = {Barker, Anna K and Alagoz, Oguzhan and Safdar, Nasia},
+	month = apr,
+	year = {2018},
+	pages = {1192--1203},
+	file = {cix962_suppl_supplement_nohighlight.docx:/Users/dklein/Zotero/storage/2YX6WA6D/cix962_suppl_supplement_nohighlight.docx:application/vnd.openxmlformats-officedocument.wordprocessingml.document;Full Text PDF:/Users/dklein/Zotero/storage/8WXHYYKU/Barker et al. - 2018 - Interventions to Reduce the Incidence of Hospital-.pdf:application/pdf;Snapshot:/Users/dklein/Zotero/storage/XTNX8VBZ/4589130.html:text/html},
+}
+
+@article{shechter_increasing_2006,
+	title = {Increasing the {Efficiency} of {Monte} {Carlo} {Cohort} {Simulations} with {Variance} {Reduction} {Techniques}},
+	volume = {26},
+	issn = {0272-989X},
+	url = {https://doi.org/10.1177/0272989X06290489},
+	doi = {10.1177/0272989X06290489},
+	abstract = {The authors discuss techniques for Monte Carlo (MC) cohort simulations that reduce the number of simulation replications required to achieve a given degree of precision for various output measures. Known as variance reduction techniques, they are often used in industrial engineering and operations research models, but they are seldom used in medical models. However, most MC cohort simulations are well suited to the implementation of these techniques. The authors discuss the cost of implementation versus the benefit of reduced replications.},
+	language = {en},
+	number = {5},
+	urldate = {2023-10-31},
+	journal = {Medical Decision Making},
+	author = {Shechter, Steven M. and Schaefer, Andrew J. and Braithwaite, R. Scott and Roberts, Mark S.},
+	month = sep,
+	year = {2006},
+	note = {Publisher: SAGE Publications Inc STM},
+	pages = {550--553},
+}
+
+@article{chhatwal_economic_2015,
+	title = {Economic {Evaluations} with {Agent}-{Based} {Modelling}: {An} {Introduction}},
+	volume = {33},
+	issn = {1179-2027},
+	shorttitle = {Economic {Evaluations} with {Agent}-{Based} {Modelling}},
+	url = {https://doi.org/10.1007/s40273-015-0254-2},
+	doi = {10.1007/s40273-015-0254-2},
+	abstract = {Agent-based modelling (ABM) is a relatively new technique, which overcomes some of the limitations of other methods commonly used for economic evaluations. These limitations include linearity, homogeneity and stationarity. Agents in ABMs are autonomous entities, who interact with each other and with the environment. ABMs provide an inductive or ‘bottom-up’ approach, i.e. individual-level behaviours define system-level components. ABMs have a unique property to capture emergence phenomena that otherwise cannot be predicted by the combination of individual-level interactions. In this tutorial, we discuss the basic concepts and important features of ABMs. We present a case study of an application of a simple ABM to evaluate the cost effectiveness of screening of an infectious disease. We also provide our model, which was developed using an open-source software program, NetLogo. We discuss software, resources, challenges and future research opportunities of ABMs for economic evaluations.},
+	language = {en},
+	number = {5},
+	urldate = {2023-10-31},
+	journal = {PharmacoEconomics},
+	author = {Chhatwal, Jagpreet and He, Tianhua},
+	month = may,
+	year = {2015},
+	keywords = {Common Random Number, Compartmental Model, Infectious Disease Modelling, Probabilistic Sensitivity Analysis, Variance Reduction Technique},
+	pages = {423--433},
+	file = {Full Text PDF:/Users/dklein/Zotero/storage/T7CPFGLQ/Chhatwal and He - 2015 - Economic Evaluations with Agent-Based Modelling A.pdf:application/pdf},
+}
+
+@misc{flaxman_untangling_2017,
+  title={Untangling uncertainty with common random numbers: a simulation study},
+  author={Flaxman, Abraham D and Deason, Alec W and Dolgert, Andrew J and Mumford, John Everett and Sorensen, Reed JD and Eldrenkamp, Erika and Vos, Theo and Foreman, Kyle and Mokdad, Ali H and Weaver, Marcia R},
+  booktitle={Proceedings of the Summer Simulation Multi-Conference},
+  pages={1--12},
+  year={2017}
+}
+
+@misc{cornejo_creating_2014,
+  title={Creating common patients and evaluating indiviual results: Issues in indivual simulation for health policy analysis},
+  author={Cornejo, David and Mayorga, Maria E and Lich, Kristen Hassmiller},
+  booktitle={Proceedings of the Winter Simulation Conference 2014},
+  pages={1387--1398},
+  year={2014},
+  organization={IEEE}
+}
+
+
+@article{stout_keeping_2008,
+	title = {Keeping the noise down: common random numbers for disease simulation modeling},
+	volume = {11},
+	issn = {1572-9389},
+	shorttitle = {Keeping the noise down},
+	url = {https://doi.org/10.1007/s10729-008-9067-6},
+	doi = {10.1007/s10729-008-9067-6},
+	abstract = {Disease simulation models are used to conduct decision analyses of the comparative benefits and risks associated with preventive and treatment strategies. To address increasing model complexity and computational intensity, modelers use variance reduction techniques to reduce stochastic noise and improve computational efficiency. One technique, common random numbers, further allows modelers to conduct counterfactual-like analyses with direct computation of statistics at the individual level. This technique uses synchronized random numbers across model runs to induce correlation in model output thereby making differences easier to distinguish as well as simulating identical individuals across model runs. We provide a tutorial introduction and demonstrate the application of common random numbers in an individual-level simulation model of the epidemiology of breast cancer.},
+	language = {en},
+	number = {4},
+	urldate = {2023-10-31},
+	journal = {Health Care Management Science},
+	author = {Stout, Natasha K. and Goldie, Sue J.},
+	month = dec,
+	year = {2008},
+	keywords = {Common random numbers, Decision analysis, Methodology, Simulation, Variance reduction techniques},
+	pages = {399--406},
+	file = {Accepted Version:/Users/dklein/Zotero/storage/8EFP6QR2/Stout and Goldie - 2008 - Keeping the noise down common random numbers for .pdf:application/pdf},
+}
+
+
+@article{kahn_methods_1953,
+	title = {Methods of {Reducing} {Sample} {Size} in {Monte} {Carlo} {Computations}},
+	volume = {1},
+	issn = {0096-3984},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/opre.1.5.263},
+	doi = {10.1287/opre.1.5.263},
+	abstract = {This paper deals with the problem of increasing the efficiency of Monte Carlo calculations. The methods of doing so permit one to reduce the sample size required to produce estimates of a fixed level of accuracy or, alternatively, to increase the accuracy of the estimates for a fixed cost of computation. Few theorems are known with regard to optimal sampling schemes, but several helpful ideas of very general applicability are available for use in designing Monte Carlo sampling schemes. Three of these ideas are discussed and illustrated in simple cases. These ideas are (1) correlation of samples, (2) importance sampling, and (3) statistical estimation.
+
+Operations Research, ISSN 0030-364X, was published as Journal of the Operations Research Society of America from 1952 to 1955 under ISSN 0096-3984.},
+	number = {5},
+	urldate = {2023-10-31},
+	journal = {Journal of the Operations Research Society of America},
+	author = {Kahn, H. and Marshall, A. W.},
+	month = nov,
+	year = {1953},
+	note = {Publisher: INFORMS},
+	pages = {263--278},
+}
+
+
+@article{botev_variance_2017,
+  title={Variance reduction},
+  author={Botev, Zdravko and Ridder, Ad},
+  journal={Wiley statsRef: Statistics reference online},
+  pages={1--6},
+  year={2017},
+  publisher={Wiley Hoboken, NJ, USA}
+}
+
+
+@article{conway_tactical_1963,
+	title = {Some {Tactical} {Problems} in {Digital} {Simulation}},
+	volume = {10},
+	issn = {0025-1909},
+	url = {https://pubsonline.informs.org/doi/abs/10.1287/mnsc.10.1.47},
+	doi = {10.1287/mnsc.10.1.47},
+	abstract = {This paper is concerned with the manner in which an investigation by simulated experimentation is conducted, after the model has been formulated and the computer program completed. It considers the problem of estimating the precision of the results obtained, and methods of improving the precision of results. Alternative procedures are discussed and recommendations are given.},
+	number = {1},
+	urldate = {2024-06-25},
+	journal = {Management Science},
+	author = {Conway, R. W.},
+	month = oct,
+	year = {1963},
+	note = {Publisher: INFORMS},
+	pages = {47--61},
+}
+
+
+@article{heikes_using_1976,
+	title = {Using common random numbers in simulation experiments — an approach to statistical analysis},
+	volume = {27},
+	issn = {0037-5497},
+	url = {https://doi.org/10.1177/003754977602700301},
+	doi = {10.1177/003754977602700301},
+	abstract = {A widely applied method of experimental design in stochastic simulation is to use the same pseudo random-number stream for each of the systems or alternatives to be compared. If there are only two alternatives, there is a well-known simple method of statistical analysis. This paper presents Graybill's3extension of that analysis technique to the case of several systems or alternatives and points out its applicability in the simulation environment. The technique is illustrated using a stochastic simula tion model of a small inventory system. An empirical comparison with other methods of design and analysis is included.},
+	language = {en},
+	number = {3},
+	urldate = {2024-05-03},
+	journal = {SIMULATION},
+	author = {Heikes, Russell G. and Montgomery, Douglas C. and Rardin, Ronald L.},
+	month = sep,
+	year = {1976},
+	note = {Publisher: SAGE Publications Ltd STM},
+	pages = {81--85},
+}
+
+
+@article{kleijnen1974statistical,
+  title={Statistical techniques in simulation},
+  author={Kleijnen, Jack PC},
+  year={1974}
+}
+
+
+@article{kaminsky_perfect_2019,
+	title = {Perfect counterfactuals for epidemic simulations},
+	volume = {374},
+	url = {https://royalsocietypublishing.org/doi/10.1098/rstb.2018.0279},
+	doi = {10.1098/rstb.2018.0279},
+	abstract = {Simulation studies are often used to predict the expected impact of control measures in infectious disease outbreaks. Typically, two independent sets of simulations are conducted, one with the intervention, and one without, and epidemic sizes (or some related metric) are compared to estimate the effect of the intervention. Since it is possible that controlled epidemics are larger than uncontrolled ones if there is substantial stochastic variation between epidemics, uncertainty intervals from this approach can include a negative effect even for an effective intervention. To more precisely estimate the number of cases an intervention will prevent within a single epidemic, here we develop a ‘single-world’ approach to matching simulations of controlled epidemics to their exact uncontrolled counterfactual. Our method borrows concepts from percolation approaches, prunes out possible epidemic histories and creates potential epidemic graphs (i.e. a mathematical representation of all consistent epidemics) that can be ‘realized’ to create perfectly matched controlled and uncontrolled epidemics. We present an implementation of this method for a common class of compartmental models (e.g. SIR models), and its application in a simple SIR model. Results illustrate how, at the cost of some computation time, this method substantially narrows confidence intervals and avoids nonsensical inferences.
+
+This article is part of the theme issue ‘Modelling infectious disease outbreaks in humans, animals and plants: epidemic forecasting and control’. This theme issue is linked with the earlier issue ‘Modelling infectious disease outbreaks in humans, animals and plants: approaches and important themes’.},
+	number = {1776},
+	urldate = {2023-11-29},
+	journal = {Philosophical Transactions of the Royal Society B: Biological Sciences},
+	author = {Kaminsky, Joshua and Keegan, Lindsay T. and Metcalf, C. Jessica E. and Lessler, Justin},
+	month = may,
+	year = {2019},
+	note = {Publisher: Royal Society},
+	keywords = {counterfactuals, infectious disease dynamics, infectious disease epidemiology, network models},
+	pages = {20180279},
+	file = {Full Text PDF:/Users/dklein/Zotero/storage/4SEBZI98/Kaminsky et al. - 2019 - Perfect counterfactuals for epidemic simulations.pdf:application/pdf},
+}
+
+@software{starsim,
+  author = {{Cliff Kerr, Robyn Stuart, Romesh Abeysuriya, Paula Sanz-Leon, Jamie Cohen, and Daniel Klein}},
+  title = {Starsim},
+  url = {https://github.com/starsimhub/starsim},
+  version = {0.5.6},
+  date = {2024-06-25},
+}
+
+@article{kerr2021covasim,
+  title={Covasim: an agent-based model of COVID-19 dynamics and interventions},
+  author={Kerr, Cliff C and Stuart, Robyn M and Mistry, Dina and Abeysuriya, Romesh G and Rosenfeld, Katherine and Hart, Gregory R and N{\'u}{\~n}ez, Rafael C and Cohen, Jamie A and Selvaraj, Prashanth and Hagedorn, Brittany and others},
+  journal={PLOS Computational Biology},
+  volume={17},
+  number={7},
+  pages={e1009149},
+  year={2021},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+
+@article{hpvsim,
+  title={HPVsim: An agent-based model of HPV transmission and cervical cancer},
+  author={
+Stuart, Robyn M. and
+Cohen, Jamie A. and
+Kerr, Cliff C. and
+Mathur, Prashant and
+Abeysuriya, Romesh G. and
+Zimmermann, Marita and
+Rao, Darcy W. and
+Boudreau, Mariah C. and
+Lee, Serin and
+Yang, Luojun and
+Klein, Daniel J. 
+  },
+  journal={PLOS Computational Biology},
+  year={2024},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{fpsim,
+  title={FPsim: An agent-based model of family planning},
+  author={O’Brien, Michelle L and Valente, Annie and Kerr, Cliff C and Proctor, Joshua L and Noori, Navideh and Root, Elisabeth D and Olsen, Helen and Buxton, Samuel and Chabot-Couture, Guillaume and Klein, Daniel J and others},
+  journal={npj Women's Health},
+  volume={1},
+  number={1},
+  pages={1},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{pcg,
+  title={PCG: A family of simple fast space-efficient statistically good algorithms for random number generation},
+  author={O’neill, Melissa E},
+  journal={ACM Transactions on Mathematical Software},
+  year={2014}
+}
+
+@article{crouse2016implementing,
+  title={On implementing 2D rectangular assignment algorithms},
+  author={Crouse, David F},
+  journal={IEEE Transactions on Aerospace and Electronic Systems},
+  volume={52},
+  number={4},
+  pages={1679--1696},
+  year={2016},
+  publisher={IEEE}
+}
+
+@ARTICLE{2020SciPy-NMeth,
+  author  = {Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and
+            Haberland, Matt and Reddy, Tyler and Cournapeau, David and
+            Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and
+            Bright, Jonathan and {van der Walt}, St{\'e}fan J. and
+            Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and
+            Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and
+            Kern, Robert and Larson, Eric and Carey, C J and
+            Polat, {\.I}lhan and Feng, Yu and Moore, Eric W. and
+            {VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and
+            Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and
+            Harris, Charles R. and Archibald, Anne M. and
+            Ribeiro, Ant{\^o}nio H. and Pedregosa, Fabian and
+            {van Mulbregt}, Paul and {SciPy 1.0 Contributors}},
+  title   = {{{SciPy} 1.0: Fundamental Algorithms for Scientific
+            Computing in Python}},
+  journal = {Nature Methods},
+  year    = {2020},
+  volume  = {17},
+  pages   = {261--272},
+  adsurl  = {https://rdcu.be/b08Wh},
+  doi     = {10.1038/s41592-019-0686-2},
+}
+
+@article{world2023trends,
+  title={Trends in maternal mortality 2000 to 2020: estimates by WHO, UNICEF, UNFPA, World Bank Group and UNDESA/Population Division: executive summary},
+  author={World Health Organization and others},
+  year={2023},
+  publisher={World Health Organization}
+}
+
+
+@article{gallos_ioannis_randomized_2023,
+	title = {Randomized {Trial} of {Early} {Detection} and {Treatment} of {Postpartum} {Hemorrhage}},
+	volume = {389},
+	url = {https://www.nejm.org/doi/full/10.1056/NEJMoa2303966},
+	doi = {10.1056/NEJMoa2303966},
+	abstract = {In a large, cluster-randomized trial involving women giving vaginal birth, a multicomponent intervention lowered the risk of severe PPH, laparotomy for bleeding, or maternal death from bleeding by 60\%.},
+	number = {1},
+	urldate = {2024-06-26},
+	journal = {New England Journal of Medicine},
+	author = {{Gallos Ioannis} and {Devall Adam} and {Martin James} and {Middleton Lee} and {Beeson Leanne} and {Galadanci Hadiza} and {Alwy Al-beity Fadhlun} and {Qureshi Zahida} and {Hofmeyr G. Justus} and {Moran Neil} and {Fawcus Sue} and {Sheikh Lumaan} and {Gwako George} and {Osoti Alfred} and {Aswat Ashraf} and {Mammoliti Kristie-Marie} and {Sindhu Kulandaipalayam N.} and {Podesek Marcelina} and {Horne Isobelle} and {Timms Rebecca} and {Yunas Idnan} and {Okore Jenipher} and {Singata-Madliki Mandisa} and {Arends Edna} and {Wakili Aminu A.} and {Mwampashi Ard} and {Nausheen Sidrah} and {Muhammad Shah} and {Latthe Pallavi} and {Evans Cherrie} and {Akter Shahinoor} and {Forbes Gillian} and {Lissauer David} and {Meher Shireen} and {Weeks Andrew} and {Shennan Andrew} and {Ammerdorffer Anne} and {Williams Eleanor} and {Roberts Tracy} and {Widmer Mariana} and {Oladapo Olufemi T.} and {Lorencatto Fabiana} and {Bohren Meghan A.} and {Miller Suellen} and {Althabe Fernando} and {Gülmezoglu Metin} and {Smith Jeffrey M.} and {Hemming Karla} and {Coomarasamy Arri}},
+	month = jul,
+	year = {2023},
+	note = {Publisher: Massachusetts Medical Society},
+	pages = {11--21},
+	file = {Full Text PDF:/Users/dklein/Zotero/storage/V3MZ2FUJ/Gallos Ioannis et al. - 2023 - Randomized Trial of Early Detection and Treatment .pdf:application/pdf},
+}
+
+
+@article{say_global_2014,
+	title = {Global causes of maternal death: a {WHO} systematic analysis},
+	volume = {2},
+	issn = {2214-109X},
+	shorttitle = {Global causes of maternal death},
+	doi = {10.1016/S2214-109X(14)70227-X},
+	language = {English},
+	number = {6},
+	urldate = {2024-06-26},
+	journal = {The Lancet Global Health},
+	author = {Say, Lale and Chou, Doris and Gemmill, Alison and Tuncalp, Ozge and Moller, Ann-Beth and Daniels, Jane and Gulmezoglu, A. Metin and Temmerman, Marleen and Alkema, Leontine},
+	month = jun,
+	year = {2014},
+	pmid = {25103301},
+	note = {Publisher: Elsevier},
+	pages = {e323--e333},
+}
+%url = {https://www.thelancet.com/journals/lancet/article/PIIS2214109X1470227X/fulltext},
+
+
+
+@article{nguyen_risk_2019,
+	title = {Risk of childhood mortality associated with death of a mother in low-and-middle-income countries: a systematic review and meta-analysis},
+	volume = {19},
+	issn = {1471-2458},
+	shorttitle = {Risk of childhood mortality associated with death of a mother in low-and-middle-income countries},
+	doi = {10.1186/s12889-019-7316-x},
+	abstract = {Death of a mother at an early age of the child may result in an increased risk of childhood mortality, especially in low-and-middle-income countries. This study aims to synthesize estimates of the association between a mother’s death and the risk of childhood mortality at different age ranges from birth to 18 years in these settings.},
+	language = {en},
+	number = {1},
+	urldate = {2024-06-26},
+	journal = {BMC Public Health},
+	author = {Nguyen, Diep Thi Ngoc and Hughes, Suzanne and Egger, Sam and LaMontagne, D. Scott and Simms, Kate and Castle, Phillip E. and Canfell, Karen},
+	month = oct,
+	year = {2019},
+	keywords = {Childhood mortality, Death of a mother, Low-and- middle-income country, Systematic review and meta-analysis},
+	pages = {1281},
+}
+%url = {https://doi.org/10.1186/s12889-019-7316-x},
+
+
+@article{finlay_effects_2015,
+	title = {The {Effects} of {Maternal} {Mortality} on {Infant} and {Child} {Survival} in {Rural} {Tanzania}: {A} {Cohort} {Study}},
+	volume = {19},
+	issn = {1573-6628},
+	shorttitle = {The {Effects} of {Maternal} {Mortality} on {Infant} and {Child} {Survival} in {Rural} {Tanzania}},
+	url = {https://doi.org/10.1007/s10995-015-1758-2},
+	doi = {10.1007/s10995-015-1758-2},
+	abstract = {The full impact of a maternal death includes consequences faced by orphaned children. This analysis adds evidence to a literature on the magnitude of the association between a woman’s death during or shortly after childbirth, and survival outcomes for her children.},
+	language = {en},
+	number = {11},
+	urldate = {2024-06-26},
+	journal = {Maternal and Child Health Journal},
+	author = {Finlay, Jocelyn E. and Moucheraud, Corrina and Goshev, Simo and Levira, Francis and Mrema, Sigilbert and Canning, David and Masanja, Honorati and Yamin, Alicia Ely},
+	month = nov,
+	year = {2015},
+	keywords = {Cohort study, Infant mortality, Maternal mortality, Orphanhood, Survival analysis, Tanzania},
+	pages = {2393--2402},
+}
+
+@article{neumann1951various,
+  title={Various techniques used in connection with random digits},
+  author={Neumann, Von},
+  journal={Notes by GE Forsythe},
+  pages={36--38},
+  year={1951}
+}
+
+@article{bansi2023cost,
+  title={Cost-effectiveness of voluntary medical male circumcision for HIV prevention across sub-Saharan Africa: results from five independent models},
+  author={Bansi-Matharu, Loveleen and Mudimu, Edinah and Martin-Hughes, Rowan and Hamilton, Matt and Johnson, Leigh and Ten Brink, Debra and Stover, John and Meyer-Rath, Gesine and Kelly, Sherrie L and Jamieson, Lise and others},
+  journal={The Lancet Global Health},
+  volume={11},
+  number={2},
+  pages={e244--e255},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@book{wpp,
+author = {United Nations Department of Economic and Social Affairs, Population Division},
+title= {World Population Prospects 2024},
+year = {2024},
+URL = {https://population.un.org/wpp/},
+}
